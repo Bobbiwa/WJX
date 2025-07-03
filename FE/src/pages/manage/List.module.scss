@@ -1,0 +1,36 @@
+ul li {
+  background-color: white;
+  height: 80px;
+}
+.item-container {
+  padding: 0 20px;
+  .item-top {
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 0.5px solid gray;
+    box-sizing: border-box;
+    .item-top-left {
+      flex: 1;
+    }
+    .item-top-right {
+      display: flex;
+      flex: 1;
+      justify-content: flex-end;
+    }
+  }
+  .item-bottom {
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    .item-bottom-left {
+      display: flex;
+      flex: 1;
+    }
+    .item-bottom-right {
+      display: flex;
+      flex: 1;
+      justify-content: flex-end;
+    }
+  }
+}

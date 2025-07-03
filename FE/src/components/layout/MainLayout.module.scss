@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  .header {
+    background-color: #051428;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 60px;
+    color: #fff;
+  }
+  .footer {
+    height: 60px;
+    border-top: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 60px;
+  }
+}

@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 24px 0;
+  .left {
+    width: 120px;
+    background-color: aquamarine;
+    ul li:nth-last-child(-n + 3) {
+      margin-bottom: 5px;
+    }
+    .create {
+      margin-bottom: 80px;
+    }
+  }
+  .right {
+    background-color: aqua;
+    flex: 1;
+    margin-left: 60px;
+  }
+}
